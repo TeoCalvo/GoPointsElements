@@ -1,4 +1,4 @@
-module GoPointsElements
+module github.com/TeoCalvo/GoPointsElements
 
 go 1.15
 

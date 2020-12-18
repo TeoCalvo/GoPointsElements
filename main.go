@@ -1,8 +1,9 @@
 package main
 
 import (
-	"GoPointsElements/points"
 	"flag"
+
+	"github.com/TeoCalvo/GoPointsElements/points"
 
 	"github.com/joho/godotenv"
 )
