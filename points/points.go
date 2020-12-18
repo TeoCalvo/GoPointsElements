@@ -36,8 +36,10 @@ func Addpoints(username string, points int) {
 	req.Header.Add("content-type", "application/json")
 	req.Header.Add("authorization", "Bearer "+channelToken)
 
-	resp, _ := client.Do(req)
-	fmt.Println(resp)
+	resp, err := client.Do(req)
+	if err != nil {
+		panic(err)
+	}
 	resp.Body.Close()
 }
 
