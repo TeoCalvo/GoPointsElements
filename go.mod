@@ -1,4 +1,4 @@
-module GoPointElements
+module GoPointsElements
 
 go 1.15
 
